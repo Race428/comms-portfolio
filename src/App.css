@@ -121,6 +121,11 @@ li .link:hover{
 }
 .about img{
   margin-left: 5em;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: 250px;
+  border-radius: 50%;
 }
 .work{
   position: relative;

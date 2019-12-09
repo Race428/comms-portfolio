@@ -14,7 +14,7 @@ class Contact extends Component {
                 <h1>
                 Let’s create your next<br></br>
                 <span className='amazing-color'>experience together</span></h1>
-                    <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
+                    <a href={`mailto:raceacheson@gmail.com`} className='email'>{data.contactEmail}</a>
                 <ul>
                     {data.social.map((link,index)=>(
                         <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
@@ -23,7 +23,6 @@ class Contact extends Component {
         </div>
         </Fade>
 
-            <span className='footer'>Made With ❤ by <a href="http://chetanverma.com/">Chetan Verma</a></span>
         </div>);
     }
 }
