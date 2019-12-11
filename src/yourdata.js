@@ -1,5 +1,6 @@
 import tender from './photos/tender.png'
 import viddy from './photos/viddy.png'
+import DR from './photos/DR.jpg'
 export default
     {
         //(Please Do Not Remove The comma(,) after every variable)
@@ -37,6 +38,17 @@ export default
                 imageSrc: `${tender}`,
                 url: 'https://tenderconnections.net/'
             },
+
+            {
+                id: 3,//DO NOT CHANGE THIS (Please)😅
+                title: 'Disaster Recovery Blog',
+                service: 'Blog for Micro Focus',
+                imageSrc: `${DR}`,
+                url: ' https://blog.microfocus.com/top-3-disaster-recovery-considerations/'
+            },
+            
+
+
         //     { 
         //         id: 3,//DO NOT CHANGE THIS (Please)😅
         //         title: 'Project Three',
